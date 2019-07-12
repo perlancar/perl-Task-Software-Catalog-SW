@@ -8,14 +8,6 @@ package Task::Software::Catalog::SW;
 
 =pkggroup Included modules
 
-=pkg Software::Catalog::SW::bulwark::qt
-
-=pkg Software::Catalog::SW::dummy::undownloadable
-
-=pkg Software::Catalog::SW::firefox
-
-=pkg Software::Catalog::SW::zcoin::qt
-
-=pkg Software::Catalog::SW::zotero
+#CODE: for (`lcpan mods --namespace Software::Catalog::SW`) { print "=pkg $_\n" }
 
 =cut
